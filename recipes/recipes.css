@@ -1,6 +1,8 @@
 body {
-    color: rgb(20, 40, 95);
+    color: rgb(64, 73, 99);
     font-family: "Lucida Console", "Monaco","Courier New";
+    width: 900px;
+    margin: 10px auto;
 }
 ol {
     font-family: Arial;
@@ -8,9 +10,31 @@ ol {
 h1,
 h2,
 h3 {
-    color: rgb(218, 144, 35);
+    color: rgb(197, 92, 32);
     font-weight: bold;
-}
+    margin: 0px auto;
+    border-top: 7px solid rgb(197, 92, 32);
+    border-bottom: 7px solid rgb(197, 92, 32);
+    text-align: center;
+    }
 a {
     color : black;
+}
+img {
+    margin:30px auto;
+}
+h1.one  {
+    width: 300px;
+}
+h2.two  {
+    width: 500px;
+}   
+div {
+    text-align: center;
+}
+p.center    {
+    text-align: center;
+}
+div.container   {
+    background-color: rgb(195, 209, 190);
 }
