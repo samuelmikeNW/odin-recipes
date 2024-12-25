@@ -1,10 +1,22 @@
-*,
-a {
+body {
     color: rgb(20, 40, 95);
     font-family: "Lucida Console", "Monaco","Courier New";
 }
 a {
-    color: rgb(218, 144, 35);
+    color: rgb(197, 92, 32);
     font-weight: bold;
 }
-
+div.para{
+    width: 235px;
+    border-top: 7px solid rgb(197, 92, 32);
+    border-bottom: 7px solid rgb(197, 92, 32);
+    margin: 15px auto;
+    color:   rgb(64, 73, 99);
+}
+div.line {
+    width: 600px;
+    height: 2000px; 
+    background-color: rgb(195, 209, 190);
+    margin: 30px 0px 10px 300px;
+    padding: 10px;
+}
